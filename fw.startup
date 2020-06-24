@@ -1,3 +1,5 @@
 ifconfig eth0 10.0.0.1 netmask 255.255.255.0 up
 ifconfig eth1 172.16.0.1 netmask 255.255.255.0 up
 ifconfig eth2 81.12.0.100 netmask 255.255.255.0 up
+
+sysctl net.ipv4.ip_forward=1
