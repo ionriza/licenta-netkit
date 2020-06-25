@@ -7,10 +7,11 @@ $TTL    60000
                         0 ; negative cache ttl
                         )
 @                   IN      NS      dns.intranet.ro.
-dns.intranet.ro     IN      A       172.16.0.20
-pc1.intranet.ro     IN	    A	    10.0.0.11
-pc2.intranet.ro     IN	    A	    10.0.0.12
-pc3.intranet.ro     IN      A       10.0.0.13
-www.intranet.ro     IN      A       10.0.0.200
-smtp.intranet.ro    IN      A       172.16.0.30
-dmz.intranet.ro     IN      A       172.16.0.10
+dns                 IN      A       172.16.0.20
+pc1                 IN	    A	    10.0.0.11
+pc2                 IN	    A	    10.0.0.12
+pc3                 IN      A       10.0.0.13
+www                 IN      A       10.0.0.200
+smtp                IN      A       172.16.0.30
+dmz                 IN      A       172.16.0.10
+intranet.ro         IN      MX      smtp.intranet.ro
