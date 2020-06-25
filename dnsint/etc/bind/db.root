@@ -1,0 +1,14 @@
+$TTL   60000
+@               IN      SOA     dns-root.net.ro.    root.dns-root.net.ro. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      dns-root.net.ro.
+ROOT-SERVER.	IN	A	81.12.0.1
+
+ro.		IN 	NS	intranet.ro.
+intranet.ro.	IN 	A	81.12.0.4 
