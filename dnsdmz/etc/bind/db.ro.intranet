@@ -14,4 +14,5 @@ pc3                 IN      A       10.0.0.13
 www                 IN      A       10.0.0.200
 smtp                IN      A       172.16.0.30
 dmz                 IN      A       172.16.0.10
-intranet.ro         IN      MX      smtp.intranet.ro
+
+intranet.ro	    IN	    MX	    smtp

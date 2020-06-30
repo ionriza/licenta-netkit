@@ -1,2 +1,2 @@
-.                   IN  NS    ROOT-SERVER.
-ROOT-SERVER.        IN  A     81.12.0.1
+.		3600000 IN	NS	ROOT-SERVER.
+ROOT-SERVER.	3600000   	A	81.12.0.2
